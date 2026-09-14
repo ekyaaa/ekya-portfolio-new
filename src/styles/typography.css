@@ -1,0 +1,72 @@
+.font-heading {
+  font-family: var(--font-heading);
+}
+
+.font-body {
+  font-family: var(--font-body);
+}
+
+.font-mono {
+  font-family: var(--font-mono);
+}
+
+/* Editorial Typography Scaling */
+.hero-title {
+  font-family: var(--font-heading);
+  font-size: clamp(2.4rem, 5.2vw, 5.2rem);
+  font-weight: 500;
+  letter-spacing: -0.05em;
+  line-height: 1.0;
+  color: var(--muted);
+}
+
+.hero-title .highlight {
+  color: var(--primary);
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.section-title {
+  font-family: var(--font-heading);
+  font-size: clamp(2.25rem, 5vw, 4.5rem);
+  font-weight: 500;
+  letter-spacing: -0.04em;
+  line-height: 1.05;
+  color: var(--foreground);
+}
+
+.section-label {
+  font-family: var(--font-mono);
+  font-size: clamp(0.8rem, 1.2vw, 0.95rem);
+  letter-spacing: -0.01em;
+  color: var(--muted);
+  text-transform: lowercase;
+}
+
+.section-label .number {
+  color: var(--primary);
+  margin-right: 0.4em;
+  font-weight: 500;
+}
+
+.body-large {
+  font-family: var(--font-body);
+  font-size: clamp(1.2rem, 1.8vw, 1.45rem);
+  line-height: 1.5;
+  color: var(--foreground);
+  font-weight: 400;
+}
+
+.body-regular {
+  font-family: var(--font-body);
+  font-size: clamp(0.95rem, 1.2vw, 1.1rem);
+  line-height: 1.6;
+  color: var(--secondary);
+}
+
+.body-small {
+  font-family: var(--font-body);
+  font-size: clamp(0.85rem, 1vw, 0.95rem);
+  line-height: 1.5;
+  color: var(--muted);
+}

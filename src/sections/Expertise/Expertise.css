@@ -1,0 +1,178 @@
+.expertise-section {
+  padding: 140px 0;
+  border-top: 1px solid var(--border);
+  background-color: var(--soft-background);
+}
+
+.expertise-header-group {
+  margin-top: 40px;
+  margin-bottom: 60px;
+  max-width: 720px;
+}
+
+.expertise-header-group .section-title {
+  font-family: var(--font-heading);
+  font-size: clamp(2.2rem, 4vw, 3.5rem);
+  font-weight: 500;
+  color: var(--foreground);
+  line-height: 1.1;
+  letter-spacing: -0.03em;
+}
+
+.expertise-header-group .header-subtitle {
+  margin-top: 16px;
+  max-width: 640px;
+  color: var(--secondary);
+  line-height: 1.6;
+}
+
+/* 2x2 Balanced Desktop Grid */
+.expertise-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 32px;
+}
+
+.expertise-card {
+  background-color: var(--background);
+  border: 1px solid var(--border);
+  padding: 36px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  transition: border-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.expertise-card:hover {
+  border-color: var(--primary);
+  transform: translateY(-3px);
+  box-shadow: 0 12px 28px rgba(61, 71, 105, 0.05);
+}
+
+.card-top-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card-num {
+  font-size: 0.85rem;
+  color: var(--primary);
+  font-weight: 500;
+  letter-spacing: 0.05em;
+}
+
+.card-tag-label {
+  font-size: 0.7rem;
+  color: var(--muted);
+  letter-spacing: 0.06em;
+}
+
+.card-title {
+  font-family: var(--font-heading);
+  font-size: clamp(1.4rem, 2vw, 1.7rem);
+  font-weight: 500;
+  color: var(--foreground);
+  line-height: 1.2;
+  letter-spacing: -0.02em;
+}
+
+.card-desc {
+  font-size: 0.95rem;
+  color: var(--foreground);
+  line-height: 1.6;
+}
+
+/* Compact Evidence Box */
+.card-evidence {
+  margin-top: 4px;
+  padding: 16px;
+  background-color: var(--soft-background);
+  border: 1px dashed var(--border);
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.evidence-header {
+  font-size: 0.68rem;
+  color: var(--primary);
+  letter-spacing: 0.06em;
+  font-weight: 500;
+}
+
+.evidence-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.evidence-item {
+  font-size: 0.78rem;
+  color: var(--secondary);
+  line-height: 1.45;
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+}
+
+.evidence-item .bullet {
+  color: var(--primary);
+  flex-shrink: 0;
+  font-size: 0.85rem;
+  line-height: 1.3;
+}
+
+/* Bottom Concepts Rail */
+.card-skills-row {
+  margin-top: auto;
+  padding-top: 16px;
+  border-top: 1px solid var(--border);
+  font-size: 0.8rem;
+  color: var(--muted);
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+  flex-wrap: wrap;
+  line-height: 1.5;
+}
+
+.skills-label {
+  color: var(--primary);
+  font-weight: 500;
+  font-size: 0.72rem;
+  letter-spacing: 0.05em;
+}
+
+.skills-tags {
+  color: var(--secondary);
+  font-size: 0.8rem;
+}
+
+@media (max-width: 992px) {
+  .expertise-section {
+    padding: 100px 0;
+  }
+
+  .expertise-grid {
+    grid-template-columns: 1fr;
+    gap: 24px;
+  }
+
+  .expertise-card {
+    padding: 28px;
+  }
+}
+
+@media (max-width: 640px) {
+  .expertise-card {
+    padding: 24px 20px;
+  }
+
+  .card-evidence {
+    padding: 12px 14px;
+  }
+}

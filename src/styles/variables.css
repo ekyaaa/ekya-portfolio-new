@@ -1,0 +1,29 @@
+:root {
+  /* Color Palette - Minimal Editorial Doodle */
+  --background: #FEFEFE;
+  --foreground: #454649;
+
+  --primary: #3D4769;       /* Deep Navy accent */
+  --secondary: #62635B;     /* Muted Olive / Grey */
+  --warm-accent: #FDCCA3;   /* Warm Peach accent */
+
+  --muted: #817A75;
+  --border: #D4D4D6;
+
+  --soft-background: #F5F4F2;
+  --taupe: #C1B0A0;
+
+  /* Typography Fonts */
+  --font-heading: 'Inter Tight', -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-body: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-mono: 'IBM Plex Mono', monospace;
+
+  /* Layout Spacing & Bounds */
+  --max-width: 1440px;
+  --header-height: 80px;
+  --gutter: clamp(24px, 5vw, 80px);
+
+  /* Transitions */
+  --ease-out-smooth: cubic-bezier(0.215, 0.61, 0.355, 1);
+  --ease-in-out-smooth: cubic-bezier(0.645, 0.045, 0.355, 1);
+}

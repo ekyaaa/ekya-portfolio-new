@@ -1,0 +1,5 @@
+# Production robots.txt for Ekya Muhammad Portfolio
+User-agent: *
+Allow: /
+
+Sitemap: https://ekyamuhammad.com/sitemap.xml

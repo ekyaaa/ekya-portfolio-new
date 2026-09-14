@@ -1,0 +1,145 @@
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  padding: 24px 0;
+  background-color: rgba(254, 254, 254, 0.88);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  transition: padding 0.3s ease, background-color 0.3s ease;
+}
+
+.header-container {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 0 var(--gutter);
+  display: flex;
+  align-items: center;
+  gap: 32px;
+}
+
+.brand-logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  transition: transform 0.3s ease;
+}
+
+.brand-logo:hover {
+  transform: scale(1.08) rotate(-4deg);
+}
+
+.brand-logo-img {
+  height: 22px;
+  width: auto;
+  object-fit: contain;
+  display: block;
+}
+
+/* Desktop Editorial Navigation */
+.desktop-nav {
+  display: flex;
+  align-items: center;
+}
+
+.nav-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px 24px;
+  list-style: none;
+}
+
+.nav-link {
+  font-family: var(--font-heading);
+  font-size: 1.15rem;
+  font-weight: 500;
+  text-decoration: none;
+  color: var(--border);
+  transition: color 0.3s ease, transform 0.2s ease;
+  display: inline-flex;
+  align-items: baseline;
+  gap: 2px;
+}
+
+.nav-link:hover {
+  color: var(--primary);
+}
+
+.nav-link.is-active {
+  color: var(--foreground);
+  font-weight: 600;
+}
+
+.nav-num {
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  color: inherit;
+  top: -0.4em;
+}
+
+.mobile-toggle {
+  display: none;
+  background: none;
+  border: none;
+  color: var(--foreground);
+  cursor: pointer;
+  padding: 4px;
+  margin-left: auto;
+}
+
+/* Mobile Navigation Drawer */
+.mobile-drawer {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .desktop-nav {
+    display: none;
+  }
+
+  .mobile-toggle {
+    display: block;
+  }
+
+  .mobile-drawer {
+    display: block;
+    position: fixed;
+    top: 72px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: var(--background);
+    padding: 40px var(--gutter);
+    z-index: 999;
+  }
+
+  .mobile-nav ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+  }
+
+  .mobile-link {
+    font-family: var(--font-heading);
+    font-size: 2rem;
+    font-weight: 500;
+    text-decoration: none;
+    color: var(--muted);
+    display: flex;
+    align-items: baseline;
+    gap: 12px;
+  }
+
+  .mobile-link.is-active {
+    color: var(--primary);
+  }
+
+  .mobile-num {
+    font-family: var(--font-mono);
+    font-size: 1rem;
+  }
+}
