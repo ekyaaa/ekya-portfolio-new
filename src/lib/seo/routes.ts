@@ -19,6 +19,21 @@ export interface AppRoute {
  * When a new article or project is added to data, it is automatically registered here.
  */
 export function getAllRoutes(): AppRoute[] {
+  // Derive latest article date for articles index
+  const latestArticleDate = articlesData.reduce((latest, a) => {
+    const d = a.modifiedDate || a.publishedDate;
+    return d > latest ? d : latest;
+  }, '2026-08-10');
+
+  // Map known project last updated dates
+  const projectLastModMap: Record<string, string> = {
+    'git-trace': '2026-08-30',
+    'deploy-packager': '2026-08-20',
+    'resurva': '2026-09-10',
+    'liza-makeup': '2026-07-15',
+    'folder-sync-inspector': '2026-06-25',
+  };
+
   const routes: AppRoute[] = [
     {
       path: '/',
@@ -26,6 +41,7 @@ export function getAllRoutes(): AppRoute[] {
       indexable: true,
       priority: 1.0,
       changefreq: 'weekly',
+      lastmod: '2026-09-14',
     },
     {
       path: '/articles',
@@ -33,6 +49,7 @@ export function getAllRoutes(): AppRoute[] {
       indexable: true,
       priority: 0.8,
       changefreq: 'weekly',
+      lastmod: latestArticleDate,
     },
   ];
 
@@ -45,6 +62,7 @@ export function getAllRoutes(): AppRoute[] {
       indexable: true,
       priority: 0.7,
       changefreq: 'monthly',
+      lastmod: article.modifiedDate || article.publishedDate,
     });
   }
 
@@ -58,6 +76,7 @@ export function getAllRoutes(): AppRoute[] {
       indexable: true,
       priority: 0.8,
       changefreq: 'monthly',
+      lastmod: projectLastModMap[project.slug] || `${project.year}-01-01`,
     });
   }
 

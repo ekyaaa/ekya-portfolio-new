@@ -1,0 +1,75 @@
+\documentclass[10pt, a4paper]{article}
+
+% --- Packages ---
+\usepackage[a4paper, top=0.36in, bottom=0.36in, left=0.45in, right=0.45in]{geometry}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\usepackage{xcolor}
+\usepackage[hidelinks]{hyperref}
+
+% --- ATS Compatibility: Glyphs to Unicode ---
+\input{glyphtounicode}
+\pdfgentounicode=1
+
+% --- Metadata ---
+\hypersetup{
+  pdftitle={Ekya Muhammad Hasfi Fadlilurrahman - Curriculum Vitae},
+  pdfauthor={Ekya Muhammad Hasfi Fadlilurrahman},
+  pdfsubject={Software Engineer, Full-Stack Developer, Mobile Developer Resume},
+  pdfkeywords={Software Engineering, Full-Stack, Backend, Mobile, Flutter, Django, FastAPI, Laravel, React, PostgreSQL, Redis, ATS-friendly}
+}
+
+% --- Page Style ---
+\pagestyle{empty}
+\raggedbottom
+\raggedright
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0pt}
+
+% --- Typography & Section Formatting with Flexible Vertical Stretch ---
+\titleformat{\section}{\large\bfseries\raggedright}{}{0em}{}[\vspace{-2pt}\titlerule]
+\titlespacing*{\section}{0pt}{3.5pt plus 2pt minus 1pt}{3.5pt plus 1.5pt minus 0.5pt}
+
+% --- List Formatting with Flexible Spacing ---
+\setlist[itemize]{leftmargin=1.1em, label=\textbullet, nosep, itemsep=1pt plus 0.8pt minus 0.4pt, topsep=1pt plus 1pt minus 0.5pt}
+
+% --- Custom Macros ---
+\newcommand{\experienceHeading}[4]{%
+  \noindent\textbf{#1} \hfill {\small #2}\\%
+  \textit{\small #3} \hfill \textit{\small #4}\par\vspace{-1pt plus 1pt}%
+}
+
+\newcommand{\projectHeading}[4]{%
+  \noindent\textbf{#1} \hfill {\small #2}\\%
+  \textit{\footnotesize Tech: #3} \hfill {\footnotesize #4}\par\vspace{-1pt plus 1pt}%
+}
+
+\begin{document}
+
+% --- Header ---
+\begin{center}
+  {\LARGE \textbf{EKYA MUHAMMAD HASFI FADLILURRAHMAN}} \\[2pt]
+  {\small \textbf{Software Engineer} \ \textbar\ \ \textbf{Full-Stack Developer} \ \textbar\ \ \textbf{Mobile Developer}} \\[2pt]
+  {\footnotesize
+    Malang, Indonesia \ $\cdot$\ 
+    \href{mailto:ekyamuhammad@gmail.com}{ekyamuhammad@gmail.com} \ $\cdot$\ 
+    \href{tel:+6281252288955}{+62 81252288955} \ $\cdot$\ 
+    \href{https://linkedin.com/in/ekya-muhammad}{linkedin.com/in/ekya-muhammad} \ $\cdot$\ 
+    \href{https://github.com/ekyaaa}{github.com/ekyaaa} \ $\cdot$\ 
+    \href{https://ekyamuhammad.com}{ekyamuhammad.com}
+  }
+\end{center}
+\vspace{-5pt plus 2pt}
+
+% --- Sections ---
+\input{sections/summary.tex}
+\input{sections/experience.tex}
+\input{sections/projects.tex}
+\input{sections/education.tex}
+\input{sections/achievements.tex}
+\input{sections/skills.tex}
+
+\end{document}

@@ -7,7 +7,8 @@
     "dev": "vite",
     "build": "tsc -b && vite build && tsx scripts/build-static-seo.ts",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "indexnow": "tsx scripts/notify-indexnow.ts"
   },
   "dependencies": {
     "@gsap/react": "^2.1.2",

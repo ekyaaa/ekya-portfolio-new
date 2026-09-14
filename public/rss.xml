@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ekya Muhammad — Articles &amp; Engineering Notes</title>
+    <link>https://ekyamuhammad.com/articles</link>
+    <description>Technical case studies, system debugging, and engineering reflections on backend scalability, AI workflows, and software under real constraints.</description>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 08 Sep 2026 00:00:00 GMT</lastBuildDate>
+    <atom:link href="https://ekyamuhammad.com/rss.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Building Software Beyond the Code</title>
+      <link>https://ekyamuhammad.com/articles/building-software-beyond-the-code</link>
+      <guid isPermaLink="true">https://ekyamuhammad.com/articles/building-software-beyond-the-code</guid>
+      <pubDate>Mon, 10 Aug 2026 00:00:00 GMT</pubDate>
+      <description>What changed when I stopped treating a working feature as the final measure of successful software.</description>
+      <category>Software Engineering</category>
+      <author>ekyamuhammad@gmail.com (Ekya Muhammad)</author>
+    </item>
+    <item>
+      <title>When PostgreSQL Became the Problem</title>
+      <link>https://ekyamuhammad.com/articles/when-postgresql-became-the-problem</link>
+      <guid isPermaLink="true">https://ekyamuhammad.com/articles/when-postgresql-became-the-problem</guid>
+      <pubDate>Tue, 18 Aug 2026 00:00:00 GMT</pubDate>
+      <description>A production investigation into connection pressure, Django&apos;s connection behavior, and the trade-offs behind introducing PgBouncer.</description>
+      <category>Backend &amp; Database</category>
+      <author>ekyamuhammad@gmail.com (Ekya Muhammad)</author>
+    </item>
+    <item>
+      <title>Git Is More Than Version Control</title>
+      <link>https://ekyamuhammad.com/articles/git-is-more-than-version-control</link>
+      <guid isPermaLink="true">https://ekyamuhammad.com/articles/git-is-more-than-version-control</guid>
+      <pubDate>Tue, 25 Aug 2026 00:00:00 GMT</pubDate>
+      <description>What happens when commit history is treated not only as version control, but as source material for a project&apos;s development memory.</description>
+      <category>AI &amp; Developer Tools</category>
+      <author>ekyamuhammad@gmail.com (Ekya Muhammad)</author>
+    </item>
+    <item>
+      <title>The Architecture I Actually Need</title>
+      <link>https://ekyamuhammad.com/articles/the-architecture-i-actually-need</link>
+      <guid isPermaLink="true">https://ekyamuhammad.com/articles/the-architecture-i-actually-need</guid>
+      <pubDate>Wed, 02 Sep 2026 00:00:00 GMT</pubDate>
+      <description>Why architecture should be justified by the problem, the team, and the constraints—not by how many technologies appear in the diagram.</description>
+      <category>Architecture</category>
+      <author>ekyamuhammad@gmail.com (Ekya Muhammad)</author>
+    </item>
+    <item>
+      <title>Becoming a Better Developer Before Becoming a Senior Developer</title>
+      <link>https://ekyamuhammad.com/articles/becoming-a-better-developer-before-becoming-a-senior-developer</link>
+      <guid isPermaLink="true">https://ekyamuhammad.com/articles/becoming-a-better-developer-before-becoming-a-senior-developer</guid>
+      <pubDate>Tue, 08 Sep 2026 00:00:00 GMT</pubDate>
+      <description>A student developer&apos;s reflection on technical growth, judgment, responsibility, and what &quot;senior&quot; should mean beyond a title.</description>
+      <category>Career &amp; Reflection</category>
+      <author>ekyamuhammad@gmail.com (Ekya Muhammad)</author>
+    </item>
+  </channel>
+</rss>

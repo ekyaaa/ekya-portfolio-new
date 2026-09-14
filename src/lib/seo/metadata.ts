@@ -4,6 +4,7 @@ import { Project } from '../../data/portfolioData';
 import {
   SeoContext,
   buildPersonSchema,
+  buildProfilePageSchema,
   buildWebSiteSchema,
   buildArticleSchema,
   buildProjectSchema,
@@ -58,7 +59,7 @@ export function buildHomeMetadata(ctx: SeoContext): PageMetadata {
     ogImage: defaultOgImage,
     ogImageAlt: 'Ekya Muhammad Portfolio Overview',
     twitterCard: 'summary_large_image',
-    schemas: [buildPersonSchema(ctx), buildWebSiteSchema(ctx)],
+    schemas: [buildProfilePageSchema(ctx), buildPersonSchema(ctx), buildWebSiteSchema(ctx)],
   };
 }
 

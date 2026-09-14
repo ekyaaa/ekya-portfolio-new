@@ -24,21 +24,86 @@ export function buildPersonSchema(ctx: SeoContext): Record<string, unknown> {
     jobTitle: siteConfig.role,
     description: siteConfig.bio,
     url: siteUrl,
+    image: `${siteUrl}/assets/images/my-photo.png`,
+    email: `mailto:${siteConfig.email}`,
     sameAs: [
       siteConfig.socials.github,
       siteConfig.socials.linkedin,
+    ],
+    alumniOf: {
+      '@type': 'CollegeOrUniversity',
+      name: 'Politeknik Negeri Malang',
+      alternateName: 'Polinema',
+      url: 'https://www.polinema.ac.id/',
+    },
+    worksFor: [
+      {
+        '@type': 'Organization',
+        name: 'PT Surabaya Autocomp Indonesia',
+        alternateName: 'Yazaki Group',
+      },
+      {
+        '@type': 'Organization',
+        name: 'NexaCode',
+        url: 'https://nexacode.dev/',
+      },
+    ],
+    award: [
+      '2nd Place — E-Government Poster (KMIPN VIII 2026)',
+      'Top 15 Finalist — Hackathon (BytesFest 2026)',
+      '1st Place — Web Development (Intercomp 2026)',
+      '3rd Place Best Solver — Hackathon Web Application (PLAY IT! 2026)',
+      '2nd Place — Team Collaboration Innovation (KMIPN VII 2025, Certificate No. 554/PL9/KM.01.02/2025)',
+      'Juara Harapan 2 — English News Casting (Intercomp 2024)',
     ],
     knowsAbout: [
       'Systems Analysis',
       'Full-Stack Development',
       'Backend Architecture',
       'PostgreSQL',
+      'Redis',
       'FastAPI',
       'Django',
+      'Laravel',
       'TypeScript',
       'React',
+      'Next.js',
+      'Flutter',
+      'Model Context Protocol (MCP)',
+      'Linux Server Administration',
+      'Nginx',
+      'Offline-First Architectures',
+      'Database Connection Optimization',
       'UI/UX Engineering',
     ],
+    address: {
+      '@type': 'PostalAddress',
+      addressCountry: 'ID',
+    },
+  };
+}
+
+/**
+ * Generates ProfilePage schema for the portfolio homepage.
+ */
+export function buildProfilePageSchema(ctx: SeoContext): Record<string, unknown> {
+  const { siteUrl } = ctx;
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'ProfilePage',
+    '@id': `${siteUrl}/#profilepage`,
+    url: `${siteUrl}/`,
+    name: `${siteConfig.name} — Profile & Portfolio`,
+    description: siteConfig.bio,
+    isPartOf: {
+      '@id': `${siteUrl}/#website`,
+    },
+    mainEntity: {
+      '@id': `${siteUrl}/#person`,
+    },
+    inLanguage: 'en',
+    dateCreated: '2024-01-01',
+    dateModified: '2026-09-14',
   };
 }
 
@@ -82,6 +147,9 @@ export function buildArticleSchema(article: Article, ctx: SeoContext): Record<st
     keywords: article.tags.join(', '),
     wordCount: article.wordCount,
     timeRequired: article.readingTime,
+    datePublished: article.publishedDate,
+    dateModified: article.modifiedDate || article.publishedDate,
+    image: `${siteUrl}${siteConfig.defaultOgImage}`,
     inLanguage: 'en',
     author: {
       '@type': 'Person',
@@ -93,6 +161,8 @@ export function buildArticleSchema(article: Article, ctx: SeoContext): Record<st
       '@type': 'Person',
       '@id': `${siteUrl}/#person`,
       name: siteConfig.name,
+      url: siteUrl,
+      image: `${siteUrl}/assets/images/my-photo.png`,
     },
     url: canonicalUrl,
   };
@@ -124,11 +194,22 @@ export function buildProjectSchema(project: Project, ctx: SeoContext): Record<st
     url: canonicalUrl,
     genre: project.category,
     keywords: project.stack.join(', '),
+    dateCreated: project.year,
+    datePublished: project.year,
   };
+
+  if (project.repositoryUrl) {
+    baseSchema.codeRepository = project.repositoryUrl;
+  }
+
+  if (project.liveUrl) {
+    baseSchema.sameAs = project.liveUrl;
+  }
 
   if (isSoftware) {
     baseSchema.applicationCategory = 'DeveloperApplication';
     baseSchema.operatingSystem = 'Cross-platform';
+    baseSchema.softwareVersion = '1.0';
   }
 
   return baseSchema;
