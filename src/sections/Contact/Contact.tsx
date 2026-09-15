@@ -45,7 +45,7 @@ export function Contact() {
             Have an exciting project, design system, or creative idea?
           </h2>
           <p className="contact-subtitle body-large" data-contact-reveal>
-            Let&apos;s build something minimal, fast, and memorable together.
+            Let&apos;s make good ideas work in the real world.
           </p>
 
           <div className="email-box" data-contact-reveal>
