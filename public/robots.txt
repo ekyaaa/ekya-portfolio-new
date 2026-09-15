@@ -24,4 +24,4 @@ Allow: /
 User-agent: Claude-User
 Allow: /
 
-Sitemap: https://ekyamuhammad.com/sitemap.xml
+Sitemap: https://www.ekyamuhammad.com/sitemap.xml
