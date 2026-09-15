@@ -14,18 +14,18 @@
   - NexaCode — Freelance Software Developer (Offline POS, full-stack systems)
 
 ## Key Technical Case Studies
-- [GitTrace](https://ekyamuhammad.com/projects/git-trace): A student productivity tool that transforms Git history into structured internship logbooks, originally built to reduce the repetitive documentation required during my POLINEMA internship.
-- [Deploy Packager](https://ekyamuhammad.com/projects/deploy-packager): Automates Git-based change extraction and directory structure preservation for air-gapped and local-server deployment pipelines.
-- [Resurva](https://ekyamuhammad.com/projects/resurva): Modular monolith FastAPI backend across 18 domain modules, featuring FEFO batch inventory deduction, escrow wallet transactions, real-time SSE streaming, and a 12-tool MCP AI orchestrator.
-- [Liza Makeup](https://ekyamuhammad.com/projects/liza-makeup): Luxury editorial digital presence and interactive portfolio for an East Java MUA business, engineered with Astro v5, GSAP motion, and WhatsApp booking.
-- [Folder Sync Inspector](https://ekyamuhammad.com/projects/folder-sync-inspector): Desktop verification utility comparing directories and Git commit tree integrity via SHA-256 checksums and line-by-line diffing.
+- [GitTrace](https://www.ekyamuhammad.com/projects/git-trace): A student productivity tool that transforms Git history into structured internship logbooks, originally built to reduce the repetitive documentation required during my POLINEMA internship.
+- [Deploy Packager](https://www.ekyamuhammad.com/projects/deploy-packager): Automates Git-based change extraction and directory structure preservation for air-gapped and local-server deployment pipelines.
+- [Resurva](https://www.ekyamuhammad.com/projects/resurva): Modular monolith FastAPI backend across 18 domain modules, featuring FEFO batch inventory deduction, escrow wallet transactions, real-time SSE streaming, and a 12-tool MCP AI orchestrator.
+- [Liza Makeup](https://www.ekyamuhammad.com/projects/liza-makeup): Luxury editorial digital presence and interactive portfolio for an East Java MUA business, engineered with Astro v5, GSAP motion, and WhatsApp booking.
+- [Folder Sync Inspector](https://www.ekyamuhammad.com/projects/folder-sync-inspector): Desktop verification utility comparing directories and Git commit tree integrity via SHA-256 checksums and line-by-line diffing.
 
 ## Engineering Articles & Notes
-- [Building Software Beyond the Code](https://ekyamuhammad.com/articles/building-software-beyond-the-code): What changed when I stopped treating a working feature as the final measure of successful software.
-- [When PostgreSQL Became the Problem](https://ekyamuhammad.com/articles/when-postgresql-became-the-problem): A production investigation into connection pressure, Django's connection behavior, and the trade-offs behind introducing PgBouncer.
-- [Git Is More Than Version Control](https://ekyamuhammad.com/articles/git-is-more-than-version-control): What happens when commit history is treated not only as version control, but as source material for a project's development memory.
-- [The Architecture I Actually Need](https://ekyamuhammad.com/articles/the-architecture-i-actually-need): Why architecture should be justified by the problem, the team, and the constraints—not by how many technologies appear in the diagram.
-- [Becoming a Better Developer Before Becoming a Senior Developer](https://ekyamuhammad.com/articles/becoming-a-better-developer-before-becoming-a-senior-developer): A student developer's reflection on technical growth, judgment, responsibility, and what "senior" should mean beyond a title.
+- [Building Software Beyond the Code](https://www.ekyamuhammad.com/articles/building-software-beyond-the-code): What changed when I stopped treating a working feature as the final measure of successful software.
+- [When PostgreSQL Became the Problem](https://www.ekyamuhammad.com/articles/when-postgresql-became-the-problem): A production investigation into connection pressure, Django's connection behavior, and the trade-offs behind introducing PgBouncer.
+- [Git Is More Than Version Control](https://www.ekyamuhammad.com/articles/git-is-more-than-version-control): What happens when commit history is treated not only as version control, but as source material for a project's development memory.
+- [The Architecture I Actually Need](https://www.ekyamuhammad.com/articles/the-architecture-i-actually-need): Why architecture should be justified by the problem, the team, and the constraints—not by how many technologies appear in the diagram.
+- [Becoming a Better Developer Before Becoming a Senior Developer](https://www.ekyamuhammad.com/articles/becoming-a-better-developer-before-becoming-a-senior-developer): A student developer's reflection on technical growth, judgment, responsibility, and what "senior" should mean beyond a title.
 
 ## Verified Milestones & Achievements
 - 2nd Place (Juara 2) — E-Government Poster at KMIPN VIII 2026 (National, Hosted by Politeknik Negeri Lampung / Bakorma)
@@ -36,15 +36,15 @@
 - Juara Harapan 2 — English News Casting at Intercomp 2024
 
 ## Verified Profiles & Contact
-- Website: https://ekyamuhammad.com
+- Website: https://www.ekyamuhammad.com
 - GitHub: https://github.com/ekyaaa
 - LinkedIn: https://www.linkedin.com/in/ekya-muhammad
 - Email: ekyamuhammad@gmail.com
 
 ## Machine-Readable Extensions
-- Full Text Markdown Corpus: [llms-full.txt](https://ekyamuhammad.com/llms-full.txt)
-- RSS 2.0 Feed: [rss.xml](https://ekyamuhammad.com/rss.xml)
-- Sitemap: [sitemap.xml](https://ekyamuhammad.com/sitemap.xml)
+- Full Text Markdown Corpus: [llms-full.txt](https://www.ekyamuhammad.com/llms-full.txt)
+- RSS 2.0 Feed: [rss.xml](https://www.ekyamuhammad.com/rss.xml)
+- Sitemap: [sitemap.xml](https://www.ekyamuhammad.com/sitemap.xml)
 
 
 ---
@@ -53,7 +53,7 @@
 
 
 ### GitTrace (2026)
-- URL: https://ekyamuhammad.com/projects/git-trace
+- URL: https://www.ekyamuhammad.com/projects/git-trace
 - Role: Architecture, Core Development & AI Integration
 - Category: Academic Tool · AI · Git
 - Collaboration: Team Project
@@ -87,7 +87,7 @@ Furthermore, student developers need offline privacy so proprietary repository c
 ---
 
 ### Deploy Packager (2026)
-- URL: https://ekyamuhammad.com/projects/deploy-packager
+- URL: https://www.ekyamuhammad.com/projects/deploy-packager
 - Role: Creator & Core Developer
 - Category: Developer Tooling & DevOps
 - Collaboration: Collaborative Tool
@@ -119,7 +119,7 @@ The engineering challenge was building a desktop tool that could parse Git histo
 ---
 
 ### Resurva (2026)
-- URL: https://ekyamuhammad.com/projects/resurva
+- URL: https://www.ekyamuhammad.com/projects/resurva
 - Role: Backend Architecture & AI Integration
 - Category: Backend Systems & AI Agents
 - Collaboration: Team Project (BytesFest 2026)
@@ -154,7 +154,7 @@ The engineering objective was designing a modular monolith backend that kept dat
 ---
 
 ### Liza Makeup (2025)
-- URL: https://ekyamuhammad.com/projects/liza-makeup
+- URL: https://www.ekyamuhammad.com/projects/liza-makeup
 - Role: Designer & Developer
 - Category: Creative Web & Brand Presence
 - Collaboration: Client Project
@@ -184,7 +184,7 @@ Bridal imagery requires crisp visual fidelity, yet image-heavy portfolios often 
 ---
 
 ### Folder Sync Inspector (2026)
-- URL: https://ekyamuhammad.com/projects/folder-sync-inspector
+- URL: https://www.ekyamuhammad.com/projects/folder-sync-inspector
 - Role: Creator & Desktop Tool Developer
 - Category: Developer Tooling & Verification
 - Collaboration: Solo Tool
@@ -218,7 +218,7 @@ Comparing folders solely through file modification timestamps is notoriously unr
 
 
 ### Building Software Beyond the Code
-- URL: https://ekyamuhammad.com/articles/building-software-beyond-the-code
+- URL: https://www.ekyamuhammad.com/articles/building-software-beyond-the-code
 - Category: Software Engineering
 - Published: 2026-08-10
 - Reading Time: 7 min read
@@ -329,7 +329,7 @@ But that awareness changed the direction in which I want to improve. I do not wa
 ---
 
 ### When PostgreSQL Became the Problem
-- URL: https://ekyamuhammad.com/articles/when-postgresql-became-the-problem
+- URL: https://www.ekyamuhammad.com/articles/when-postgresql-became-the-problem
 - Category: Backend & Database
 - Published: 2026-08-18
 - Reading Time: 7 min read
@@ -450,7 +450,7 @@ That was the real lesson: production systems fail across boundaries, so debuggin
 ---
 
 ### Git Is More Than Version Control
-- URL: https://ekyamuhammad.com/articles/git-is-more-than-version-control
+- URL: https://www.ekyamuhammad.com/articles/git-is-more-than-version-control
 - Category: AI & Developer Tools
 - Published: 2026-08-25
 - Reading Time: 6 min read
@@ -575,7 +575,7 @@ Exploring that idea made me see Git differently. It is still version control fir
 ---
 
 ### The Architecture I Actually Need
-- URL: https://ekyamuhammad.com/articles/the-architecture-i-actually-need
+- URL: https://www.ekyamuhammad.com/articles/the-architecture-i-actually-need
 - Category: Architecture
 - Published: 2026-09-02
 - Reading Time: 6 min read
@@ -704,7 +704,7 @@ It is the one whose boxes I can explain.
 ---
 
 ### Becoming a Better Developer Before Becoming a Senior Developer
-- URL: https://ekyamuhammad.com/articles/becoming-a-better-developer-before-becoming-a-senior-developer
+- URL: https://www.ekyamuhammad.com/articles/becoming-a-better-developer-before-becoming-a-senior-developer
 - Category: Career & Reflection
 - Published: 2026-09-08
 - Reading Time: 7 min read

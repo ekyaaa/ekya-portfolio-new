@@ -88,7 +88,7 @@ Allow: /
 User-agent: Claude-User
 Allow: /
 
-Sitemap: https://ekyamuhammad.com/sitemap.xml
+Sitemap: https://www.ekyamuhammad.com/sitemap.xml
 ```
 
 ---
@@ -108,7 +108,7 @@ Sitemap: https://ekyamuhammad.com/sitemap.xml
 ## 6. IndexNow Implementation
 
 - **Key**: `7b23e819a6d44f8ea9c140df852a39d1`
-- **Key Location**: `https://ekyamuhammad.com/7b23e819a6d44f8ea9c140df852a39d1.txt`
+- **Key Location**: `https://www.ekyamuhammad.com/7b23e819a6d44f8ea9c140df852a39d1.txt`
 - **Submission Utility**: `scripts/notify-indexnow.ts`
 
 ### Usage:
@@ -142,9 +142,9 @@ Both files are regenerated automatically during every `npm run build`, ensuring 
 1. **Set Production Site URL**:
    In your hosting dashboard (Vercel, Netlify, Cloudflare Pages), configure:
    ```env
-   SITE_URL=https://ekyamuhammad.com
+   SITE_URL=https://www.ekyamuhammad.com
    ```
-   (or `VITE_SITE_URL=https://ekyamuhammad.com`)
+   (or `VITE_SITE_URL=https://www.ekyamuhammad.com`)
 2. **Confirm Clean URLs & HTTPS**:
    - Ensure the domain enforces HTTPS.
    - Ensure trailing slashes are redirected to non-trailing slashes (handled by `vercel.json` and `public/_headers`).
@@ -160,18 +160,18 @@ Both files are regenerated automatically during every `npm run build`, ensuring 
    - Navigate to **Sitemaps** &rarr; enter `sitemap.xml` &rarr; click **Submit**.
 3. **Inspect Core URLs**:
    - Use URL Inspection on:
-     - `https://ekyamuhammad.com/`
-     - `https://ekyamuhammad.com/articles`
-     - `https://ekyamuhammad.com/projects/resurva`
-     - `https://ekyamuhammad.com/articles/when-postgresql-became-the-problem`
+     - `https://www.ekyamuhammad.com/`
+     - `https://www.ekyamuhammad.com/articles`
+     - `https://www.ekyamuhammad.com/projects/resurva`
+     - `https://www.ekyamuhammad.com/articles/when-postgresql-became-the-problem`
    - Click **Test Live URL** to verify Googlebot renders the prerendered HTML and extracts structured data.
    - Click **Request Indexing**.
 
 ### Bing Webmaster Tools
 1. **Import / Verify Site**:
-   - Add `https://ekyamuhammad.com` (can import directly from Google Search Console).
+   - Add `https://www.ekyamuhammad.com` (can import directly from Google Search Console).
 2. **Submit Sitemap**:
-   - Under **Sitemaps**, submit `https://ekyamuhammad.com/sitemap.xml`.
+   - Under **Sitemaps**, submit `https://www.ekyamuhammad.com/sitemap.xml`.
 3. **Verify IndexNow Status**:
    - Under **IndexNow**, confirm your key `7b23e819a6d44f8ea9c140df852a39d1` is detected and view submission history.
 
@@ -184,9 +184,9 @@ Both files are regenerated automatically during every `npm run build`, ensuring 
    - Ensure bot challenge modes do not block `OAI-SearchBot`, `PerplexityBot`, or `Claude-SearchBot`.
 2. **Verify Header Responses**:
    ```bash
-   curl -I https://ekyamuhammad.com/robots.txt
-   curl -I https://ekyamuhammad.com/llms.txt
-   curl -I https://ekyamuhammad.com/rss.xml
+   curl -I https://www.ekyamuhammad.com/robots.txt
+   curl -I https://www.ekyamuhammad.com/llms.txt
+   curl -I https://www.ekyamuhammad.com/rss.xml
    ```
 
 ---
