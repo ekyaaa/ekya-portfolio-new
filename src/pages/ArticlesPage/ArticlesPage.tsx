@@ -116,6 +116,11 @@ export function ArticlesPage() {
                     <div className="index-card-header font-mono">
                       <span className="index-number">{articleIndexNum}</span>
                       <span className="index-category">{article.category}</span>
+                      {article.publishedDate && (
+                        <span className="index-date">
+                          {new Date(article.publishedDate).toLocaleDateString('en-US', { month: 'short', year: 'numeric' })}
+                        </span>
+                      )}
                       <span className="index-reading-time">{article.readingTime}</span>
                     </div>
 

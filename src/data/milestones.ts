@@ -6,7 +6,7 @@ export const milestonesData: Milestone[] = [
     year: 2026,
     month: 'Sep',
     sortDate: '2026-09',
-    title: 'KMIPN 2026 — Carbon Market Pilot Platform',
+    title: 'KMIPN VIII 2026 — Carbon Market Pilot Platform',
     subtitle: 'National Polytechnic Informatics Competition',
     type: 'award',
     scope: 'national',
@@ -18,7 +18,7 @@ export const milestonesData: Milestone[] = [
       'Developed a pilot carbon-market platform exploring blockchain-based tokenization and transparent transaction records, with Isolation Forest used to detect anomalous transaction patterns.',
     story: {
       context:
-        'Kompetisi Mahasiswa Informatika Politeknik Nasional (KMIPN) is the premier nationwide IT innovation championship for polytechnic students across Indonesia. For the 2026 finals in Lampung, our team represented Politeknik Negeri Malang under the team name "What Time is IT?" in the E-Government category.',
+        'Kompetisi Mahasiswa Informatika Politeknik Nasional (KMIPN) is the premier nationwide IT innovation championship for polytechnic students across Indonesia. For the KMIPN VIII 2026 finals in Lampung, our team represented Politeknik Negeri Malang under the team name "What Time is IT?" in the E-Government category.',
       projectAndChallenge:
         'Our team developed a pilot carbon-market platform prototype exploring transparent carbon accounting. The system investigates how blockchain mechanics can provide tokenization and immutable transaction logs for carbon credits, while an Isolation Forest model is used to flag anomalous transaction patterns for fraud-detection workflows.',
       roleContribution:
@@ -26,7 +26,7 @@ export const milestonesData: Milestone[] = [
       constraint:
         'Balancing transparent on-chain transaction auditing with lightweight anomaly detection workflows within competition prototype constraints.',
       outcome:
-        'Awarded 2nd Place (Juara 2) in the E-Government Poster Competition at the national KMIPN finals.',
+        'Awarded 2nd Place (Juara 2) in the E-Government Poster Competition at the national KMIPN VIII finals.',
     },
     mediaFolder: '2026/sep-kmipn',
     coverFilename: '1.jpg',
@@ -39,8 +39,8 @@ export const milestonesData: Milestone[] = [
     gallery: [
       {
         filename: '1.jpg',
-        alt: 'Group photo with fellow finalist teams and delegations across competition categories at KMIPN 2026',
-        caption: 'Group photo with fellow finalist delegations across competition categories at KMIPN 2026',
+        alt: 'Group photo with fellow finalist teams and delegations across competition categories at KMIPN VIII 2026',
+        caption: 'Group photo with fellow finalist delegations across competition categories at KMIPN VIII 2026',
         isHero: true,
         kind: 'photo',
         fit: 'cover',
@@ -49,7 +49,7 @@ export const milestonesData: Milestone[] = [
       },
       {
         filename: '2.jpg',
-        alt: 'Presentation workspace setup immediately after completing the live Zoom judging session for KMIPN 2026',
+        alt: 'Presentation workspace setup immediately after completing the live Zoom judging session for KMIPN VIII 2026',
         caption: 'Post-presentation workspace setup right after completing our live Zoom judging session',
         kind: 'photo',
         fit: 'contain',
@@ -57,7 +57,7 @@ export const milestonesData: Milestone[] = [
       },
       {
         filename: 'announcement.jpeg',
-        alt: 'Official KMIPN 2026 podium announcement confirming 2nd Place in E-Government Poster category',
+        alt: 'Official KMIPN VIII 2026 podium announcement confirming 2nd Place in E-Government Poster category',
         caption: 'Official announcement podium: 2nd Place in E-Government Poster category',
         isDocument: true,
         kind: 'announcement',
@@ -390,10 +390,10 @@ export const milestonesData: Milestone[] = [
     scope: 'internal',
     organizer: 'Jurusan Teknologi Informasi, Politeknik Negeri Malang',
     location: 'Politeknik Negeri Malang',
-    result: 'Winner — News Casting (Juara Harapan 2)',
+    result: 'Juara Harapan 2 — English News Casting',
     role: 'Competitor',
     summary:
-      'Won the campus-wide English News Casting competition, an early milestone that strengthened my confidence in structured communication and presentation.',
+      'Achieved Juara Harapan 2 in the campus-wide English News Casting competition, an early milestone that strengthened my confidence in structured communication and presentation.',
     story: {
       context:
         'Held campus-wide across the department, the English News Casting category challenged participants to report and deliver complex news scripts in English with clear articulation, poise, and camera confidence.',
@@ -404,7 +404,7 @@ export const milestonesData: Milestone[] = [
       constraint:
         'Live stage presentation requiring clear command of English, immediate prompt handling, and professional stage presence.',
       outcome:
-        'Awarded Juara Harapan 2 (Winner — News Casting), building foundational communication and presentation skills that transferred directly into later technical pitches.',
+        'Awarded Juara Harapan 2 in the English News Casting category, building foundational communication and presentation skills that transferred directly into later technical pitches.',
     },
     mediaFolder: '2024/intercomp',
     coverFilename: 'handover-sertificate.JPG',

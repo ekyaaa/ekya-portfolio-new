@@ -304,8 +304,8 @@ export const projectsData: Project[] = [
     role: "Backend Architecture & AI Integration",
     category: "Backend Systems & AI Agents",
     collaborationType: "Team Project (BytesFest 2026)",
-    shortDescription: "Modular monolith REST API, real-time SSE streaming, and 12-tool MCP orchestrator powering a smart business and surplus food ecosystem.",
-    description: "Modular monolith REST API, real-time SSE streaming, and 12-tool MCP orchestrator powering a smart business and surplus food ecosystem.",
+    shortDescription: "Modular monolith FastAPI backend across 18 domain modules, featuring FEFO batch inventory deduction, escrow wallet transactions, real-time SSE streaming, and a 12-tool MCP AI orchestrator.",
+    description: "Modular monolith FastAPI backend across 18 domain modules, featuring FEFO batch inventory deduction, escrow wallet transactions, real-time SSE streaming, and a 12-tool MCP AI orchestrator.",
     intro: "An enterprise smart business management platform and surplus food marketplace engineered to curb food waste among culinary MSMEs across Solo Raya. Developed for BytesFest 2026 by Team NexaCode, I served as Lead Backend Developer, architecting a modular FastAPI service with PostgreSQL, real-time Server-Sent Events (SSE) order streaming, and an AI intelligence system built on the Model Context Protocol (MCP).",
     overview: [
       "Indonesia produces an estimated 23–48 million tons of food waste annually, resulting in immense economic losses while contributing significantly to greenhouse gas emissions. In Solo Raya, local culinary MSMEs face constant inventory imbalances due to manual tracking and lack of structured restocking protocols.",
@@ -317,16 +317,20 @@ export const projectsData: Project[] = [
     ],
     contributions: [
       {
-        title: "Backend Architecture & Domain Modules",
-        description: "Engineered the entire FastAPI REST API using the Route-Service-Repository pattern across 15+ domain modules, including inventory, orders, wallets, and analytics."
+        title: "Backend Architecture & 18 Domain Modules",
+        description: "Engineered the entire FastAPI REST API using the Route-Service-Repository pattern across 18 isolated domain modules, including inventory, orders, escrow wallets, cart reservations, and audit logging."
+      },
+      {
+        title: "FEFO Inventory Deduction & Escrow Wallet Engine",
+        description: "Engineered First-Expired-First-Out (FEFO) batch inventory deduction to prioritize clearance of nearest-expiry foods, combined with an Escrow Wallet mechanism holding transaction funds until in-person pickup verification."
       },
       {
         title: "Database Modeling & Migrations",
         description: "Designed normalized PostgreSQL relational schemas using SQLAlchemy ORM, managing database evolutions through strictly audited Alembic migration scripts."
       },
       {
-        title: "MCP AI Agent Framework & Tool Suite",
-        description: "Architected a custom Model Context Protocol (MCP) orchestrator and implemented 12+ specialized tools for sales summarization, expiry alerts, inventory audits, and carbon analytics."
+        title: "MCP AI Agent Framework & 12-Tool Suite",
+        description: "Architected a custom Model Context Protocol (MCP) orchestrator and implemented 12 specialized tools for sales summarization, expiry alerts, inventory audits, and carbon analytics."
       },
       {
         title: "Real-Time Order Streaming (SSE)",
@@ -343,6 +347,10 @@ export const projectsData: Project[] = [
         description: "Decoupled business rules from database queries and HTTP serialization, creating isolated service layers that can be unit-tested without mocking the entire web framework."
       },
       {
+        title: "FEFO Batch Inventory & Escrow Wallet Mechanics",
+        description: "Applied First-Expired-First-Out (FEFO) batch deduction on perishable goods to ensure items closest to expiration sell first, paired with escrow wallet mechanics that safeguard buyer payments until physical verification."
+      },
+      {
         title: "Pluggable MCP tool registry pattern",
         description: "Encapsulated AI tool capabilities into typed base classes registered at runtime, enabling the agent orchestrator to discover schemas dynamically without hardcoded agent logic."
       },
@@ -353,7 +361,9 @@ export const projectsData: Project[] = [
     ],
     keyFeatures: [
       "12-Tool Model Context Protocol (MCP) agent framework for automated merchant business intelligence.",
-      "Real-time order lifecycle streaming via Server-Sent Events (SSE).",
+      "First-Expired-First-Out (FEFO) automated batch inventory clearance engine.",
+      "Dual-sided Escrow Wallet with reservation locking and instant refund protection.",
+      "Real-time order lifecycle streaming via Server-Sent Events (SSE) to merchant kitchen dashboards.",
       "Dynamic multi-provider LLM integration (OpenAI, Anthropic, DeepSeek) for store review sentiment summaries.",
       "Quantified environmental carbon savings conversion based on rescued food weights.",
       "Secure digital wallet ledger, balance reservation locks, and comprehensive transaction audit trails."

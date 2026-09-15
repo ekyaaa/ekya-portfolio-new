@@ -508,19 +508,30 @@ export function MilestoneModal({ item, onClose, onSelectRelated }: MilestoneModa
       {activeImage && (
         <div
           className="lightbox-overlay"
-          onClick={() => setActiveImage(null)}
+          onClick={(e) => {
+            e.stopPropagation();
+            setActiveImage(null);
+          }}
           role="dialog"
           aria-label="Full screen image preview"
         >
           <button
             type="button"
             className="lightbox-close"
-            onClick={() => setActiveImage(null)}
+            onClick={(e) => {
+              e.stopPropagation();
+              setActiveImage(null);
+            }}
             aria-label="Close image preview"
           >
             <X size={26} />
           </button>
-          <img src={activeImage} alt="Expanded preview" className="lightbox-img" />
+          <img
+            src={activeImage}
+            alt="Expanded preview"
+            className="lightbox-img"
+            onClick={(e) => e.stopPropagation()}
+          />
         </div>
       )}
     </div>

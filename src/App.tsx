@@ -19,6 +19,7 @@ import { Contact } from './sections/Contact/Contact';
 import { buildHomeMetadata } from './lib/seo/metadata';
 import { useSEO, useResolvedSiteUrl } from './hooks/useSEO';
 import { useFaviconTheme } from './hooks/useFaviconTheme';
+import { logReferralAttribution } from './lib/analytics/aiReferral';
 
 const ArticlesPage = lazy(() =>
   import('./pages/ArticlesPage/ArticlesPage').then((m) => ({ default: m.ArticlesPage }))
@@ -97,6 +98,9 @@ export function App() {
 
   useEffect(() => {
     if (typeof window === 'undefined') return;
+
+    // Detect and log non-invasive AI/Search referral attribution
+    logReferralAttribution();
 
     // Initialize Lenis Smooth Scroll once globally
     const lenis = new Lenis({

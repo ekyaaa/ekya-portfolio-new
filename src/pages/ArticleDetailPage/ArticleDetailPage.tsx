@@ -120,6 +120,14 @@ export function ArticleDetailPage() {
               <Clock size={13} className="meta-icon" />
               {article.readingTime}
             </span>
+            {article.publishedDate && (
+              <>
+                <span className="meta-divider">&bull;</span>
+                <time className="publish-date-pill" dateTime={article.publishedDate}>
+                  {new Date(article.publishedDate).toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' })}
+                </time>
+              </>
+            )}
           </div>
 
           <h1 className="article-main-title font-heading">{article.title}</h1>

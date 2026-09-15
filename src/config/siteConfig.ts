@@ -4,10 +4,10 @@
  * MANUAL ACTION REQUIRED:
  * When deploying to production, set the SITE_URL (or VITE_SITE_URL) environment variable
  * in your hosting dashboard (Vercel, Netlify, Cloudflare, etc.) to your confirmed custom domain.
- * Example: SITE_URL=https://ekyamuhammad.com
+ * Example: SITE_URL=https://www.ekyamuhammad.com
  */
 
-export const DEFAULT_PRODUCTION_DOMAIN = 'https://ekyamuhammad.com';
+export const DEFAULT_PRODUCTION_DOMAIN = 'https://www.ekyamuhammad.com';
 export const DEFAULT_DEV_DOMAIN = 'http://localhost:5173';
 
 /**
@@ -54,8 +54,8 @@ export const siteConfig = {
     github: 'https://github.com/ekyaaa',
     linkedin: 'https://www.linkedin.com/in/ekya-muhammad',
   },
-  defaultTitle: 'Ekya Muhammad - Portfolio',
-  defaultDescription: 'Personal portfolio of Ekya Muhammad - System Analyst and Full-Stack Developer building thoughtful, scalable, and high-performance digital systems.',
+  defaultTitle: 'Ekya Muhammad - System Analyst & Fullstack Developer',
+  defaultDescription: 'Personal portfolio of Ekya Muhammad - System Analyst and Fullstack Developer building thoughtful, scalable, and high-performance digital systems.',
   defaultOgImage: '/assets/images/og-default.png',
   locale: 'en_US',
 };

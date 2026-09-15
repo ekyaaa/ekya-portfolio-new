@@ -1,5 +1,27 @@
 # Production robots.txt for Ekya Muhammad Portfolio
+# Standards-compliant crawling policy for search and retrieval systems
+
 User-agent: *
 Allow: /
 
-Sitemap: https://ekyamuhammad.com/sitemap.xml
+# General Search Engines
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+# AI Search & Retrieval Bots (Search discoverability only; training bots unchanged)
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Claude-SearchBot
+Allow: /
+
+User-agent: Claude-User
+Allow: /
+
+Sitemap: https://www.ekyamuhammad.com/sitemap.xml

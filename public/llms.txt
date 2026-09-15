@@ -1,0 +1,47 @@
+# Ekya Muhammad — Portfolio & Engineering Knowledge Base
+
+> System Analyst & Full-Stack Developer specializing in high-performance digital systems, workflow automation, backend architectures, and developer tooling.
+
+## Personal & Entity Overview
+- Name: Ekya Muhammad
+- Role: System Analyst and Full-Stack Developer
+- Location: Indonesia
+- Bio: System Analyst & Full-Stack Developer focused on high-performance digital systems, workflow automation, and scalable architectures.
+- Primary Stack: TypeScript, React, Next.js, Python (Django, FastAPI), PostgreSQL, Redis, Linux (Ubuntu/Nginx), GSAP, Flutter, SQLite
+- Education: Politeknik Negeri Malang (Polinema)
+- Professional Affiliations:
+  - PT Surabaya Autocomp Indonesia (Yazaki Group) — Software Developer Intern (PPC & IC)
+  - NexaCode — Freelance Software Developer (Offline POS, full-stack systems)
+
+## Key Technical Case Studies
+- [GitTrace](https://www.ekyamuhammad.com/projects/git-trace): A student productivity tool that transforms Git history into structured internship logbooks, originally built to reduce the repetitive documentation required during my POLINEMA internship.
+- [Deploy Packager](https://www.ekyamuhammad.com/projects/deploy-packager): Automates Git-based change extraction and directory structure preservation for air-gapped and local-server deployment pipelines.
+- [Resurva](https://www.ekyamuhammad.com/projects/resurva): Modular monolith FastAPI backend across 18 domain modules, featuring FEFO batch inventory deduction, escrow wallet transactions, real-time SSE streaming, and a 12-tool MCP AI orchestrator.
+- [Liza Makeup](https://www.ekyamuhammad.com/projects/liza-makeup): Luxury editorial digital presence and interactive portfolio for an East Java MUA business, engineered with Astro v5, GSAP motion, and WhatsApp booking.
+- [Folder Sync Inspector](https://www.ekyamuhammad.com/projects/folder-sync-inspector): Desktop verification utility comparing directories and Git commit tree integrity via SHA-256 checksums and line-by-line diffing.
+
+## Engineering Articles & Notes
+- [Building Software Beyond the Code](https://www.ekyamuhammad.com/articles/building-software-beyond-the-code): What changed when I stopped treating a working feature as the final measure of successful software.
+- [When PostgreSQL Became the Problem](https://www.ekyamuhammad.com/articles/when-postgresql-became-the-problem): A production investigation into connection pressure, Django's connection behavior, and the trade-offs behind introducing PgBouncer.
+- [Git Is More Than Version Control](https://www.ekyamuhammad.com/articles/git-is-more-than-version-control): What happens when commit history is treated not only as version control, but as source material for a project's development memory.
+- [The Architecture I Actually Need](https://www.ekyamuhammad.com/articles/the-architecture-i-actually-need): Why architecture should be justified by the problem, the team, and the constraints—not by how many technologies appear in the diagram.
+- [Becoming a Better Developer Before Becoming a Senior Developer](https://www.ekyamuhammad.com/articles/becoming-a-better-developer-before-becoming-a-senior-developer): A student developer's reflection on technical growth, judgment, responsibility, and what "senior" should mean beyond a title.
+
+## Verified Milestones & Achievements
+- 2nd Place (Juara 2) — E-Government Poster at KMIPN VIII 2026 (National, Hosted by Politeknik Negeri Lampung / Bakorma)
+- Top 15 Finalist — Hackathon at BytesFest 2026 (National, Hosted by UNS Surakarta, Verification: https://kegiatan.fkip.uns.ac.id/verify/20260726060490167)
+- 1st Place (Juara 1) — Web Development at Intercomp 2026 (Politeknik Negeri Malang)
+- 3rd Place Best Solver — Hackathon Web Application at PLAY IT! 2026 (Politeknik Negeri Malang)
+- 2nd Place (Juara 2 Inovasi Kerja Sama Tim) at KMIPN VII 2025 (National, Certificate No. 554/PL9/KM.01.02/2025)
+- Juara Harapan 2 — English News Casting at Intercomp 2024
+
+## Verified Profiles & Contact
+- Website: https://www.ekyamuhammad.com
+- GitHub: https://github.com/ekyaaa
+- LinkedIn: https://www.linkedin.com/in/ekya-muhammad
+- Email: ekyamuhammad@gmail.com
+
+## Machine-Readable Extensions
+- Full Text Markdown Corpus: [llms-full.txt](https://www.ekyamuhammad.com/llms-full.txt)
+- RSS 2.0 Feed: [rss.xml](https://www.ekyamuhammad.com/rss.xml)
+- Sitemap: [sitemap.xml](https://www.ekyamuhammad.com/sitemap.xml)
