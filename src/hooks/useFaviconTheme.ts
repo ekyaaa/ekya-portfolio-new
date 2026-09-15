@@ -14,17 +14,11 @@ export function useFaviconTheme() {
       const isDark = e.matches;
       const faviconHref = isDark ? '/favicon-dark.png' : '/favicon-light.png';
 
-      // Update generic icon links
-      const iconLinks = document.querySelectorAll<HTMLLinkElement>(
-        'link[rel="icon"]:not([type="image/svg+xml"])'
-      );
-
-      iconLinks.forEach((link) => {
-        // If it doesn't have a media attribute or is matching, set directly
-        if (!link.hasAttribute('media')) {
-          link.href = faviconHref;
-        }
-      });
+      // Update dedicated dynamic favicon link if present
+      const dynamicLink = document.querySelector<HTMLLinkElement>('link[data-dynamic-favicon]');
+      if (dynamicLink) {
+        dynamicLink.href = faviconHref;
+      }
     };
 
     // Initial check

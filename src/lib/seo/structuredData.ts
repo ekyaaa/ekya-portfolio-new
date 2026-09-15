@@ -119,8 +119,15 @@ export function buildWebSiteSchema(ctx: SeoContext): Record<string, unknown> {
     url: siteUrl,
     name: siteConfig.defaultTitle,
     description: siteConfig.defaultDescription,
+    image: `${siteUrl}/assets/images/logo.png`,
     publisher: {
       '@id': `${siteUrl}/#person`,
+      '@type': 'Person',
+      name: siteConfig.name,
+      logo: {
+        '@type': 'ImageObject',
+        url: `${siteUrl}/assets/images/logo.png`,
+      },
     },
     inLanguage: 'en',
   };

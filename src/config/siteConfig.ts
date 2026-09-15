@@ -54,8 +54,8 @@ export const siteConfig = {
     github: 'https://github.com/ekyaaa',
     linkedin: 'https://www.linkedin.com/in/ekya-muhammad',
   },
-  defaultTitle: 'Ekya Muhammad - Portfolio',
-  defaultDescription: 'Personal portfolio of Ekya Muhammad - System Analyst and Full-Stack Developer building thoughtful, scalable, and high-performance digital systems.',
+  defaultTitle: 'Ekya Muhammad - System Analyst & Fullstack Developer',
+  defaultDescription: 'Personal portfolio of Ekya Muhammad - System Analyst and Fullstack Developer building thoughtful, scalable, and high-performance digital systems.',
   defaultOgImage: '/assets/images/og-default.png',
   locale: 'en_US',
 };

@@ -71,7 +71,7 @@ export function buildArticlesIndexMetadata(articlesCount: number, ctx: SeoContex
   const canonicalUrl = `${siteUrl}/articles`;
   const defaultOgImage = toAbsoluteUrl(siteConfig.defaultOgImage, siteUrl);
 
-  const title = 'Articles & Engineering Notes — Ekya Muhammad - Portfolio';
+  const title = 'Articles & Engineering Notes — Ekya Muhammad - System Analyst & Fullstack Developer';
   const description =
     'Technical case studies, system debugging, and engineering reflections on backend scalability, AI workflows, and software under real constraints.';
 
@@ -107,8 +107,8 @@ export function buildArticleMetadata(article: Article, ctx: SeoContext): PageMet
   const { siteUrl } = ctx;
   const canonicalUrl = `${siteUrl}/articles/${article.slug}`;
 
-  // Title pattern: Article Title — Ekya Muhammad - Portfolio
-  const title = `${article.title} — Ekya Muhammad - Portfolio`;
+  // Title pattern: Article Title — Ekya Muhammad - System Analyst & Fullstack Developer
+  const title = `${article.title} — Ekya Muhammad - System Analyst & Fullstack Developer`;
   const description = article.excerpt;
 
   // Prefer article-specific image if available, otherwise fallback
@@ -147,7 +147,7 @@ export function buildProjectMetadata(project: Project, ctx: SeoContext): PageMet
   const { siteUrl } = ctx;
   const canonicalUrl = `${siteUrl}/projects/${project.slug}`;
 
-  const title = `${project.title} — Ekya Muhammad - Portfolio`;
+  const title = `${project.title} — Ekya Muhammad - System Analyst & Fullstack Developer`;
   const description = project.shortDescription || project.description || project.intro.slice(0, 160);
 
   // Use project representative preview image if available
@@ -189,11 +189,11 @@ export function buildNotFoundMetadata(ctx: SeoContext): PageMetadata {
   const canonicalUrl = `${siteUrl}/404`;
 
   return {
-    title: 'Page Not Found — Ekya Muhammad - Portfolio',
+    title: 'Page Not Found — Ekya Muhammad - System Analyst & Fullstack Developer',
     description: 'The requested page does not exist or has been moved.',
     canonicalUrl,
     robots: 'noindex, follow',
-    ogTitle: 'Page Not Found — Ekya Muhammad - Portfolio',
+    ogTitle: 'Page Not Found — Ekya Muhammad - System Analyst & Fullstack Developer',
     ogDescription: 'The requested page does not exist or has been moved.',
     ogType: 'website',
     ogUrl: canonicalUrl,
