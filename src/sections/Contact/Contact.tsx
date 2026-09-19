@@ -37,7 +37,7 @@ export function Contact() {
     <section ref={sectionRef} id="contact" className="contact-section">
       <div className="container">
         <div className="section-label" data-contact-reveal>
-          <span className="number">06</span> contact.
+          <span className="number">07</span> contact.
         </div>
 
         <div className="contact-content font-heading">

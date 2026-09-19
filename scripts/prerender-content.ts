@@ -183,10 +183,9 @@ function renderHomeHtml(): string {
             <li><a href="#work" style="color: #3D4769; text-decoration: none;">2. Portfolio</a></li>
             <li><a href="#experience" style="color: #3D4769; text-decoration: none;">3. Experience</a></li>
             <li><a href="#expertise" style="color: #3D4769; text-decoration: none;">4. Expertise</a></li>
-            <li><a href="#process" style="color: #3D4769; text-decoration: none;">5. Process</a></li>
-            <li><a href="#milestones" style="color: #3D4769; text-decoration: none;">6. Milestones</a></li>
-            <li><a href="/articles" style="color: #3D4769; text-decoration: none;">7. Articles</a></li>
-            <li><a href="#contact" style="color: #3D4769; text-decoration: none;">8. Contact</a></li>
+            <li><a href="#milestones" style="color: #3D4769; text-decoration: none;">5. Milestones</a></li>
+            <li><a href="/articles" style="color: #3D4769; text-decoration: none;">6. Articles</a></li>
+            <li><a href="#contact" style="color: #3D4769; text-decoration: none;">7. Contact</a></li>
           </ul>
         </nav>
       </header>

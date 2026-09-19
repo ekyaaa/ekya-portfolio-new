@@ -6,13 +6,13 @@ import { gsap, ScrollTrigger } from './animations/gsap';
 import { Header } from './components/layout/Header/Header';
 import { Footer } from './components/layout/Footer/Footer';
 import { CustomCursor } from './components/ui/CustomCursor/CustomCursor';
+import { ScrollToTop } from './components/ui/ScrollToTop/ScrollToTop';
 
 import { Hero } from './sections/Hero/Hero';
 import { About } from './sections/About/About';
 import { Projects } from './sections/Projects/Projects';
 import { Experience } from './sections/Experience/Experience';
 import { Expertise } from './sections/Expertise/Expertise';
-import { Process } from './sections/Process/Process';
 import { Milestones } from './sections/Milestones/Milestones';
 import { Articles } from './sections/Articles/Articles';
 import { Contact } from './sections/Contact/Contact';
@@ -82,7 +82,6 @@ function HomePage() {
       <Projects />
       <Experience />
       <Expertise />
-      <Process />
       <Milestones />
       <Articles />
       <Contact />
@@ -144,6 +143,7 @@ export function App() {
 
       <Footer />
       <CustomCursor />
+      <ScrollToTop />
     </div>
   );
 }
