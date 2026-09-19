@@ -19,10 +19,9 @@ const navItems: NavItem[] = [
   { id: 'work', number: '²', label: 'portfolio.', href: '#work' },
   { id: 'experience', number: '³', label: 'experience.', href: '#experience' },
   { id: 'expertise', number: '⁴', label: 'expertise.', href: '#expertise' },
-  { id: 'process', number: '⁵', label: 'process.', href: '#process' },
-  { id: 'milestones', number: '⁶', label: 'milestones.', href: '#milestones' },
-  { id: 'articles', number: '⁷', label: 'articles.', href: '#articles' },
-  { id: 'contact', number: '⁸', label: 'contact.', href: '#contact' },
+  { id: 'milestones', number: '⁵', label: 'milestones.', href: '#milestones' },
+  { id: 'articles', number: '⁶', label: 'articles.', href: '#articles' },
+  { id: 'contact', number: '⁷', label: 'contact.', href: '#contact' },
 ];
 
 export function Header() {

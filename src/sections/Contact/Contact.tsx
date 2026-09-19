@@ -37,7 +37,7 @@ export function Contact() {
     <section ref={sectionRef} id="contact" className="contact-section">
       <div className="container">
         <div className="section-label" data-contact-reveal>
-          <span className="number">06</span> contact.
+          <span className="number">07</span> contact.
         </div>
 
         <div className="contact-content font-heading">
@@ -45,7 +45,7 @@ export function Contact() {
             Have an exciting project, design system, or creative idea?
           </h2>
           <p className="contact-subtitle body-large" data-contact-reveal>
-            Let&apos;s build something minimal, fast, and memorable together.
+            Let&apos;s make good ideas work in the real world.
           </p>
 
           <div className="email-box" data-contact-reveal>

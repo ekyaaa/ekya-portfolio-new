@@ -49,7 +49,7 @@ export function Milestones() {
       <div className="container">
         {/* Section Label */}
         <div className="section-label" data-milestone-reveal>
-          <span className="number">06</span> milestones.
+          <span className="number">05</span> milestones.
         </div>
 
         {/* Section Intro Typography */}

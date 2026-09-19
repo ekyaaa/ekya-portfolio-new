@@ -33,7 +33,7 @@ export function Articles() {
       <div className="container">
         {/* Section Label */}
         <div className="section-label" data-articles-reveal>
-          <span className="number">05</span> articles.
+          <span className="number">06</span> articles.
         </div>
 
         {/* Section Header */}

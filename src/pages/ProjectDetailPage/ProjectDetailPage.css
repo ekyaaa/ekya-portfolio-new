@@ -186,32 +186,43 @@
 .decisions-grid,
 .contributions-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
   gap: 24px;
   margin-top: 24px;
 }
 
-.decision-item,
-.contribution-item {
+.project-detail-page .decision-item,
+.project-detail-page .contribution-item {
+  display: flex;
+  flex-direction: column;
   padding: 24px;
   border: 1px solid var(--border);
   background: var(--background);
   border-radius: 6px;
+  transition: border-color 0.2s ease;
 }
 
-.decision-title,
-.contribution-title {
-  font-size: 1.1rem;
+.project-detail-page .decision-item:hover,
+.project-detail-page .contribution-item:hover {
+  border-color: var(--primary);
+}
+
+.project-detail-page .decision-title,
+.project-detail-page .contribution-title {
+  font-size: 1.15rem;
   font-weight: 600;
+  line-height: 1.35;
   margin-bottom: 12px;
   color: var(--primary);
 }
 
-.decision-desc,
-.contribution-desc {
+.project-detail-page .decision-desc,
+.project-detail-page .contribution-desc {
   font-size: 0.95rem;
-  line-height: 1.6;
+  line-height: 1.65;
   color: var(--secondary);
+  margin: 0;
+  flex: 1;
 }
 
 /* Gallery & Media */

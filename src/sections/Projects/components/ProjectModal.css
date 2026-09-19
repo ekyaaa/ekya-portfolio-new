@@ -378,7 +378,7 @@
   margin-top: 12px;
 }
 
-.contribution-item {
+.contributions-editorial-list .contribution-item {
   display: grid;
   grid-template-columns: 220px 1fr;
   gap: 24px;
@@ -387,7 +387,7 @@
   align-items: start;
 }
 
-.contribution-header {
+.contributions-editorial-list .contribution-header {
   display: flex;
   align-items: baseline;
   gap: 10px;
@@ -405,7 +405,7 @@
   letter-spacing: -0.01em;
 }
 
-.contribution-desc {
+.contributions-editorial-list .contribution-desc {
   line-height: 1.6;
   color: var(--secondary);
 }
@@ -657,7 +657,7 @@
     gap: 24px;
   }
 
-  .contribution-item {
+  .contributions-editorial-list .contribution-item {
     grid-template-columns: 180px 1fr;
     gap: 18px;
   }
@@ -727,7 +727,7 @@
     gap: 12px;
   }
 
-  .contribution-item {
+  .contributions-editorial-list .contribution-item {
     grid-template-columns: 1fr;
     gap: 8px;
     padding: 16px 0;
